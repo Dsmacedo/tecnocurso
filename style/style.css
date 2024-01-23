@@ -1,0 +1,114 @@
+@charset "UTF-8";
+.faq {
+  padding: 5.6vw;
+}
+.faq h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.faq__questions__item {
+  background-color: #b92727;
+  margin-bottom: 16px;
+  list-style: none;
+}
+.faq__questions__item__question {
+  color: #fff;
+  font-size: 20px;
+  padding: 24px;
+  display: block;
+  cursor: pointer;
+  position: relative;
+}
+.faq__questions__item__question::after {
+  content: "+";
+  position: absolute;
+  top: 0;
+  right: 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+.faq__questions__item__answer {
+  height: 0;
+  overflow: hidden;
+  padding: 0 24px;
+  transition: height, 0.8s ease;
+}
+.faq__questions__item--is-open .faq__questions__item__question::after {
+  content: "-";
+}
+.faq__questions__item--is-open .faq__questions__item__answer {
+  height: auto;
+  padding-bottom: 24px;
+  transition: height, 0.8s ease;
+}
+
+.image-text-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #b92727;
+  background-image: linear-gradient(45deg, black, transparent);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 50%;
+  opacity: 0.8;
+  border-radius: 10px;
+  /* Ajuste o valor conforme necessário para a curvatura desejada */
+}
+
+.textsuport {
+  padding-left: 20px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.botao {
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #b92727;
+  color: white;
+  width: 150px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #02830c; /* Mudança de cor ao passar o mouse */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: auto auto;
+  font-family: "Avenir", sans-serif;
+  max-width: 1200px;
+}
+
+.text--big {
+  font-size: 18px;
+  line-height: 28px;
+  color: silver;
+}
+
+/*# sourceMappingURL=style.css.map */

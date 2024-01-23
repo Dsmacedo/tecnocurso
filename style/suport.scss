@@ -1,0 +1,50 @@
+.image-text-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #b92727;
+    background-image: linear-gradient(45deg, black, transparent);
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    opacity: 0.8;
+    border-radius: 10px;
+    /* Ajuste o valor conforme necessário para a curvatura desejada */
+
+}
+
+.textsuport {
+    padding-left: 20px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.botao {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #b92727;
+    color: white;
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #02830c; /* Mudança de cor ao passar o mouse */
+  }
