@@ -20,5 +20,11 @@ body {
     color: silver;
 }
 
+@media screen and (max-width: 768px) {
+    .image-text-section {
+        display: block;
+    }
+}
+
 
 
